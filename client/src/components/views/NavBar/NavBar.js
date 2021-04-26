@@ -4,7 +4,7 @@ import RightMenu from './Sections/RightMenu';
 import { Drawer, Button, Icon } from 'antd';
 import './Sections/Navbar.css';
 
-const Logo = require('../../../images/Logo.png');
+const Logo = require('../../../images/WhatsApp Image 2021-04-25 at 8.34.16 PM.jpeg');
 
 function NavBar() {
   const [visible, setVisible] = useState(false)
