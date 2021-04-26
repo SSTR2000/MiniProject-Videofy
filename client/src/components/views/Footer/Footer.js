@@ -6,9 +6,10 @@ function Footer() {
         <div style={{
             height: '80px', display: 'flex',
             flexDirection: 'column', alignItems: 'center',
-            justifyContent: 'center', fontSize:'1rem'
+            justifyContent: 'center', fontSize:'1rem',
+            background:'skyblue',color:'black'
         }}>
-           <p> Made By Team Videofy  <Icon type="smile" /></p>
+           <p style={{ fontSize:'30px',justifyContent:'centre',marginTop:'5px'}}> Videofy Makes Life Easy  <Icon type="smile" /></p>
         </div>
     )
 }

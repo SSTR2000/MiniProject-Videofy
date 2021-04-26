@@ -18,12 +18,12 @@ function NavBar() {
   };
 
   return (
-    <nav className="menu" style={{ position: 'fixed', zIndex: 5, width: '100%' }}>
+    <nav className="menu" style={{ position: 'fixed', zIndex: 5, width: '100%',background:'skyblue',height:'90px' }}>
       <div className="menu__logo">
-        <a href="/"><img src={Logo} alt="Logo" style={{ width: '100%', marginTop: '-5px' }} /></a>
+        <a href="/"><img src={Logo} alt="Logo" style={{ width: '110px', marginTop: '-12px',height:'60px' }} /></a>
       </div>
-      <div className="menu__container">
-        <div className="menu_left">
+      <div className="menu__container" >
+        <div className="menu_left" >
           <LeftMenu mode="horizontal" />
         </div>
         <div className="menu_rigth">
@@ -33,6 +33,7 @@ function NavBar() {
           className="menu__mobile-button"
           type="primary"
           onClick={showDrawer}
+          
         >
           <Icon type="align-right" />
         </Button>
